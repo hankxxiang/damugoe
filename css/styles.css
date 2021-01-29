@@ -1,0 +1,13 @@
+
+.col-7 {
+    background-color: #ffffff;
+}
+
+}
+.navbar{
+    background-color: #fca311;
+}
+.boxshadow{
+    box-shadow:0px 3px 8px 2px #575757;
+    z-index: 1;
+}
