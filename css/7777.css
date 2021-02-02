@@ -1,0 +1,24 @@
+/* 讓所有table加入此css */
+/* table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+  } */
+
+
+/* 宣告一個名稱為tableBorder的class，讓有此class的table加上css樣式 */
+/* .tableBorder table, th, td {
+    border: 1px solid red ;
+    border-collapse: collapse;
+} */
+
+
+body{
+  background-color: #9381ff;
+}
+
+
+.bg-form{
+  background-color: #b8b8ff;
+}
+
+    

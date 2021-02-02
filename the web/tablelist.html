@@ -1,0 +1,157 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>mincraft offical</title>
+  <link rel="stylesheet" href="./5555.css">
+</head>
+
+
+<div class="container ">
+  <div class="row align-items-center justify-content-center" style="height: 100vh;">
+    <form class="bg-form px-5 py-4" style="width:100vw">
+      <h1 style="font-weight: 700; font-size: 2rem; padding-bottom: 3vh; font-family: Noto Sans TC">訂單結帳</h1>
+      <div class="form-row ">
+        <div class="form-group col-12 col-md-6 ">
+          <label for="inputname">姓</label>
+          <input type="text" class="form-control" placeholder="王">
+        </div>
+        <div class="form-group col">
+          <label for="inputname">名字</label>
+          <input type="text" class="form-control" placeholder="小明">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-12 col-md-6">
+          <label for="inputEmail3">Email</label>
+          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+
+        <div class="form-group col">
+          <label for="inputPassword3">電話號碼 ( 方便通知您 )</label>
+          <input type="password" class="form-control" id="inputPassword3" placeholder="電話號碼">
+        </div>
+      </div>
+
+    <div class="form-row">
+      <div class="form-group col">
+        <label for="inputState">商品種類</label>
+        <select id="inputState" class="form-control">
+          <option selected>大禮盒</option>
+          <option selected>中禮盒</option>
+          <option selected>小禮盒</option>
+        </select>
+
+        <label for="inputState" style=padding-top:13px;>商品數量</label>
+        <input class="form-control" type="text" placeholder="商品數量">
+
+      </div>
+    </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="inputCity">縣市</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="桃園市...">
+        </div>
+        <div class="form-group col-md-8">
+          <label for="inputState">地址</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="住家地址...">
+        </div>
+      </div>
+
+
+      <div class="form-group row">
+        <div class="col-md-3">
+          <a href="商品說明">
+            <h5>商品說明</h5>
+          </a>
+        </div>
+        <div class="col-md-9">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">已同意以上事項</label>
+          </div>
+        </div>
+      </div>
+
+      <fieldset class="form-group pl-3">
+        <div class="row">
+          <legend class="col-form-label col-md-3 pt-0 pl-0">訂購商品種類:</legend>
+
+          <div class="col-md-2 form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              大禮盒
+            </label>
+          </div>
+          <div class="col-md-2 form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              中禮盒
+            </label>
+          </div>
+          <div class="col-md-2 form-check disabled">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+            <label class="form-check-label" for="gridRadios3">
+              小禮盒
+            </label>
+          </div>
+        </div>
+      
+      <div class="form-group row">
+        <div class="col-sm-10 pl-0 pt-3">
+          <button type="submit" class="btn btn-danger">確認送出</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function () {
+    'use strict';
+    window.addEventListener('load', function () {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function (form) {
+        form.addEventListener('submit', function (event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+</script>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+  integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+  integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
