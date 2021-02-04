@@ -3,12 +3,10 @@
     background-color: #ffffff;
 }
 
-}
-.navbar{
-    background-color: #fca311;
-}
+
+
 .boxshadow{
-    box-shadow:0px 3px 8px 2px #575757;
+    box-shadow:2px 2px 10px 2px #5e5d5d;
     z-index: 1;
 }
 
